@@ -4,12 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "buildJs": "babel js -d dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ChandraTheMerciless/HelloWorld-React.git"
   },
   "author": "Chandra Asar",
   "license": "ISC",
@@ -22,6 +17,8 @@
   "devDependencies": {
     "babel-cli": "^6.10.1",
     "babel-preset-es2015": "^6.9.0",
-    "babel-preset-react": "^6.5.0"
+    "babel-preset-react": "^6.5.0",
+    "browserify": "^13.0.1",
+    "watch": "^0.18.0"
   }
 }
